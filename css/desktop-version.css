@@ -1,0 +1,23 @@
+@media screen and (min-width: 1280px) {
+    main {
+        width: 540px;
+    }
+
+    .page-title {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .page-title img {
+        height: 30px;
+    }
+
+    .question h2 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .answer {
+        font-size: 14px;
+    }
+}
