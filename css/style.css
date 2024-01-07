@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     list-style: none;
 }
@@ -71,12 +72,13 @@ main {
 .question {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .question h2 {
     font-size: 18px;
-    width: 75%;
+    width: 70%;
 }
 
 .answer {
@@ -86,7 +88,12 @@ main {
     line-height: 25px;
 }
 
-.expand {
+.expand-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-radius: 100%;
     cursor: pointer;
 }
 
@@ -97,5 +104,5 @@ main {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(306, 45%, 44%);
 }
