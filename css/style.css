@@ -24,11 +24,11 @@ body {
     min-height: 100vh;
 }
 
-picture {
+header {
     position: absolute;
+    top: 0;
     z-index: -1;
     width: 100%;
-    top: 0;
 }
 
 .banner {
@@ -86,7 +86,7 @@ main {
     line-height: 25px;
 }
 
-#expand {
+.expand {
     cursor: pointer;
 }
 

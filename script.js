@@ -1,4 +1,4 @@
-const expandButtons = document.querySelectorAll("#expand")
+const expandButtons = document.querySelectorAll(".expand")
 const answers = document.querySelectorAll(".answer")
 expandButtons.forEach((button, index) => {
     button.draggable = false

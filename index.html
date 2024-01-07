@@ -13,11 +13,12 @@
 </head>
 <body>
 
-  <picture>
-    <source media="(min-width: 960px)" srcset="assets/images/background-pattern-desktop.svg">
-
-    <img class="banner" src="assets/images/background-pattern-mobile.svg" alt="banner">
-  </picture>
+  <header>
+    <picture>
+      <source media="(min-width: 960px)" srcset="assets/images/background-pattern-desktop.svg">
+      <img class="banner" src="assets/images/background-pattern-mobile.svg" alt="banner">
+    </picture>
+  </header>
 
   <main>
     <div class="page-title">
@@ -30,7 +31,7 @@
       <li class="faq-question">
         <div class="question">
           <h2>What is Frontend Mentor, and how will it help me?</h2>
-          <img src="assets/images/icon-plus.svg" id="expand" alt="expand answer" role="button">
+          <img src="assets/images/icon-plus.svg" class="expand" alt="expand answer" role="button">
         </div>
         <p class="answer">
           Frontend Mentor offers realistic coding challenges to help developers improve their
@@ -42,7 +43,7 @@
       <li class="faq-question">
         <div class="question">
           <h2>Is Frontend Mentor free?</h2>
-          <img src="assets/images/icon-plus.svg" id="expand" alt="expand answer" role="button">
+          <img src="assets/images/icon-plus.svg" class="expand" alt="expand answer" role="button">
         </div>
         <p class="answer">
           Yes, Frontend Mentor offers both free and premium coding challenges, with the free
@@ -54,7 +55,7 @@
       <li class="faq-question">
         <div class="question">
           <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
-          <img src="assets/images/icon-plus.svg" id="expand" alt="expand answer" role="button">
+          <img src="assets/images/icon-plus.svg" class="expand" alt="expand answer" role="button">
         </div>
         <p class="answer">
           Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
@@ -66,7 +67,7 @@
       <li class="faq-question">
         <div class="question">
           <h2>How can I get help if I'm stuck on a Frontend Mentor challenge?</h2>
-          <img src="assets/images/icon-plus.svg" id="expand" alt="expand answer" role="button">
+          <img src="assets/images/icon-plus.svg" class="expand" alt="expand answer" role="button">
         </div>
         <p class="answer">
           The best place to get help is inside Frontend Mentor's Discord community. There's a help
@@ -79,10 +80,10 @@
   </main>
 
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.github.com/JhonFXA" target="_blank">Jonathan Henrique</a>.
-  </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
